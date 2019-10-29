@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>Chapter5</module>
+        <module>testng-demo</module>
         <module>extent-report</module>
     </modules>
 
