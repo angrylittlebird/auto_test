@@ -1,0 +1,27 @@
+[
+  {
+    "description": "这是一个模拟重定向的demo",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "这是一个模拟重定向到自己的path的demo",
+    "request": {
+      "uri": "/old/path"
+    },
+    "redirectTo": "/new/path"
+  },
+  {
+    "description": "new path",
+    "request": {
+      "uri": "/new/path"
+    },
+    "response": {
+      "json": {
+        "msg": "重定向成功!"
+      }
+    }
+  }
+]

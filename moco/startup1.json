@@ -1,0 +1,11 @@
+[
+  {
+    "description":"moco-runner的第一个测试用例",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"第一个moco框架demo"
+    }
+  }
+]

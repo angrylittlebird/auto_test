@@ -1,0 +1,22 @@
+[
+  {
+    "description":"这是一个带有请求头信息的demo",
+    "request":{
+      "uri":"/post/with/headers",
+      "method":"post",
+      "json":{
+        "name":"zhangsan",
+        "age":"19"
+      },
+      "headers":{
+        "content-type":"application/json"
+      }
+    },
+    "response":{
+      "json":{
+        "name":"zhangsan",
+        "status":"ok"
+      }
+    }
+  }
+]
