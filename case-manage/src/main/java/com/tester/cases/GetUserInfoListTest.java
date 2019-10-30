@@ -1,7 +1,5 @@
 package com.tester.cases;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonArrayFormatVisitor;
 import com.tester.config.TestConfig;
 import com.tester.model.GetUserListCase;
 import com.tester.model.User;

@@ -20,8 +20,6 @@
         <module>extent-report</module>
         <module>httpclient-demo</module>
         <module>mybatis-logback</module>
-        <module>case-manage</module>
-        <module>user-manage</module>
     </modules>
 
     <dependencies>

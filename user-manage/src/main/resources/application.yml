@@ -10,7 +10,7 @@ spring:
    application:
           name: report
    datasource:
-       driver-class-name: com.mysql.cj.jdbc.Driver
+       driver-class-name: com.mysql.jdbc.Driver
        url: jdbc:mysql://47.105.95.225:3306/course
        username: imp
        password: 123456
