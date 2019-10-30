@@ -16,23 +16,38 @@
     }
   },
   {
-    "description":"这是一个带有cookie的post请求demo",
-    "request":{
-      "uri":"/post/with/cookie",
-      "method":"post",
-      "json":{
-        "name":"zhangsan",
-        "age":10
+    "description": "必须携带cookie的post请求",
+    "request": {
+      "uri": "/post/with/cookie",
+      "method": "post",
+      "json": {
+        "name": "zhangsan",
+        "age": 10
       },
-      "cookies":{
-        "login":"true"
+      "cookies": {
+        "login": "true"
       }
     },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "zhangsan",
+        "status": 1
+      }
+    }
+  },
+  {
+    "description":"返回一个带有cookie的数据",
+    "request":{
+      "uri":"/getcookie"
+    },
     "response":{
-      "status":200,
-      "json":{
-        "name":"zhangsan",
-        "status":1
+      "cookies":{
+        "login":"true"
+      },
+      "text":"获取cookie成功!",
+      "headers":{
+        "content-type":"text/html;charset=utf-8"
       }
     }
   }
